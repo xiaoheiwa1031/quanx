@@ -8,7 +8,7 @@
 ^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/adBubble\/.+ _ reject
 # vip
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ http://musicpay.kuwo.cn/music.pay?uid=1 302
-
+[mitm]
+hostname = %APPEND% *.kuwo.cn
 [Script]
-# 酷狗vip (原yxiaocai改写)搬运自NobyDa
-^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip) url script-response-body https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
+酷我vip解锁 = type=http-response,pattern=^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js,script-update-interval=0

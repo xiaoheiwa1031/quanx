@@ -1,6 +1,4 @@
-#!name=网易分流
-#!desc=
-[RULE]
+# > fl
 DOMAIN,admusicpic.music.126.net,🎶网易云音乐
 DOMAIN,apm.music.163.com,🎶网易云音乐
 DOMAIN,apm3.music.163.com,🎶网易云音乐

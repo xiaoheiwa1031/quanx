@@ -15,10 +15,10 @@ if ($trigger == "button") {
 	$notification.post("配置重载","配置重载成功","")
 };
 $done({
-    title:"𝓢𝓾𝓻𝓰𝓮ᴾᴿᴼ  已运行"+startTime,
+    title:"“趴趴丶熊灬”的𝓢𝓾𝓻𝓰𝓮ᴾᴿᴼ  已运行"+startTime,
     content:"Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
-    icon: icon_s?"power.circle.fill":"info.circle.fill",
-   "icon-color":crown.fill&color"#16A951":"#FF7500"
+    icon: icon_s?"crown.fill":"info.circle.fill",
+   "icon-color":icon_s?"#16A951":"#FF7500"
 });
 })();
 function icon_status(status){

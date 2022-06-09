@@ -15,7 +15,7 @@ if ($trigger == "button") {
 	$notification.post("配置重载","配置重载成功","")
 };
 $done({
-    title:"“趴趴丶熊灬”的 𝓢𝓾𝓻𝓰𝓮 ᴾᴿᴼ  已运行"+startTime,
+    title:"“趴趴丶熊灬”的 𝓢𝓾𝓻𝓰𝓮 ᴾᴿᴼ      已运行"+startTime,
     content:"Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
     icon: icon_s?"crown.fill":"info.circle.fill",
    "icon-color":icon_s?"#f6c970":"#FF7500"

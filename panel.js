@@ -15,7 +15,7 @@ if ($trigger == "button") {
 	$notification.post("配置重载","配置重载成功","")
 };
 $done({
-    title:"“趴趴丶熊灬”的 𝓢𝓾𝓻𝓰𝓮 ᴾᴿᴼ  \n 已运行"+startTime +" 授权到期:2023年06月01日",
+    title:"“趴趴丶熊灬”的 𝓢𝓾𝓻𝓰𝓮 ᴾᴿᴼ  \n 已运行"+startTime +"\n 授权到期:2023年06月01日",
     content:"Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
     icon: icon_s?"pawprint.circle":"info.circle.fill",
    "icon-color":icon_s?"#f6c970":"#FF7500"

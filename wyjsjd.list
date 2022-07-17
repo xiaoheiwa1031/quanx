@@ -1,10 +1,8 @@
 # > NeteaseMusic Unlock List
 # > All Nodes
 # > 2022.07.16
-网易云音乐1 = http, music.lolico.me, 39000
 网易云音乐2 = ss, 101.132.192.212, 30001, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, tfo=false, udp-relay=false
 网易云音乐3 = ss, 101.132.192.212, 30003, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, tfo=false, udp-relay=false
-网易云音乐4 = http,101.132.79.113,23333
 网易云音乐5 = http,music.griouges.cn,39000
 网易云音乐6 = http,1.116.214.16,19980
 网易云音乐7 = http,salvan.icu,19980

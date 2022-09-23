@@ -1,12 +1,15 @@
 var Body = JSON.parse($response.body);
-switch ($request.url.match(/map|personal|json/)[0]){
- case "map":
- Body.data = '046ef1bab26e5b9bfe2473ded237b572';
- break;
+switch ($request.url.match(/maps|personal|json/)[0]){
+ case "maps":
+ Body.blockTypeData ={}
+break;
  case "personal":
  var objk = Body.data;
-objk["daily_count"] = "1000";
+objk["challenge"] = "999999";
+objk["win_count"] = "999999";
 objk["nick_name"] = "站在我下面的都是辣鸡";
+objk["daily_count"] ="1";
+objk["topic_count"] ="999999";
   break;
  default:
 $done({ body: $response.body

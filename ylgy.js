@@ -1,18 +1,1 @@
-var Body = JSON.parse($response.body);
-switch ($request.url.match(/maps|personal|json/)[0]){
- case "maps":
- Body.blockTypeData ={}
-break;
- case "personal":
- var objk = Body.data;
-objk["challenge"] = "999999";
-objk["win_count"] = "999999";
-objk["nick_name"] = "站在我下面的都是辣鸡";
-objk["daily_count"] ="1";
-objk["topic_count"] ="999999";
-  break;
- default:
-$done({ body: $response.body
-.replace(/false/g,'true') });
- }
-$done({body: JSON.stringify(Body)});
+var __encode ='jsjiami.com',_a={}, _0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]= _0xb483[1]})(_a);var __Oxebef1=["\x62\x6F\x64\x79","\x70\x61\x72\x73\x65","\x62\x6C\x6F\x63\x6B\x54\x79\x70\x65\x44\x61\x74\x61","\x6D\x61\x70\x73","\x64\x61\x74\x61","\x63\x68\x61\x6C\x6C\x65\x6E\x67\x65","\x39\x39\x39\x39\x39\x39","\x77\x69\x6E\x5F\x63\x6F\x75\x6E\x74","\x6E\x69\x63\x6B\x5F\x6E\x61\x6D\x65","\u7AD9\u5728\u6211\u4E0B\u9762\u7684\u90FD\u662F\u8FA3\u9E21","\x64\x61\x69\x6C\x79\x5F\x63\x6F\x75\x6E\x74","\x31","\x74\x6F\x70\x69\x63\x5F\x63\x6F\x75\x6E\x74","\x70\x65\x72\x73\x6F\x6E\x61\x6C","\x74\x72\x75\x65","\x72\x65\x70\x6C\x61\x63\x65","\x6D\x61\x74\x63\x68","\x75\x72\x6C","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x6F\x67","\u5220\u9664","\u7248\u672C\u53F7\uFF0C\x6A\x73\u4F1A\u5B9A","\u671F\u5F39\u7A97\uFF0C","\u8FD8\u8BF7\u652F\u6301\u6211\u4EEC\u7684\u5DE5\u4F5C","\x6A\x73\x6A\x69\x61","\x6D\x69\x2E\x63\x6F\x6D"];var Body=JSON[__Oxebef1[0x1]]($response[__Oxebef1[0x0]]);switch($request[__Oxebef1[0x11]][__Oxebef1[0x10]](/maps|personal|json/)[0x0]){case __Oxebef1[0x3]:Body[__Oxebef1[0x2]]= {};break;case __Oxebef1[0xd]:var objk=Body[__Oxebef1[0x4]];objk[__Oxebef1[0x5]]= __Oxebef1[0x6];objk[__Oxebef1[0x7]]= __Oxebef1[0x6];objk[__Oxebef1[0x8]]= __Oxebef1[0x9];objk[__Oxebef1[0xa]]= __Oxebef1[0xb];objk[__Oxebef1[0xc]]= __Oxebef1[0x6];break;default:$done({body:$response[__Oxebef1[0x0]][__Oxebef1[0xf]](/false/g,__Oxebef1[0xe])})};$done({body:JSON[__Oxebef1[0x12]](Body)});;;(function(_0xbb4fx3,_0xbb4fx4,_0xbb4fx5,_0xbb4fx6,_0xbb4fx7,_0xbb4fx8){_0xbb4fx8= __Oxebef1[0x13];_0xbb4fx6= function(_0xbb4fx9){if( typeof alert!== _0xbb4fx8){alert(_0xbb4fx9)};if( typeof console!== _0xbb4fx8){console[__Oxebef1[0x14]](_0xbb4fx9)}};_0xbb4fx5= function(_0xbb4fxa,_0xbb4fx3){return _0xbb4fxa+ _0xbb4fx3};_0xbb4fx7= _0xbb4fx5(__Oxebef1[0x15],_0xbb4fx5(_0xbb4fx5(__Oxebef1[0x16],__Oxebef1[0x17]),__Oxebef1[0x18]));try{_0xbb4fx3= __encode;if(!( typeof _0xbb4fx3!== _0xbb4fx8&& _0xbb4fx3=== _0xbb4fx5(__Oxebef1[0x19],__Oxebef1[0x1a]))){_0xbb4fx6(_0xbb4fx7)}}catch(e){_0xbb4fx6(_0xbb4fx7)}})({})

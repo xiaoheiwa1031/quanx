@@ -1,4 +1,4 @@
-#!name=羊了个羊速通脚本(最新)
+#!name=🐑了个🐑速通(9.24)
 #!desc=删除后重新进入，解锁全皮肤，个人资料修改，关卡改白块
 [Script]
 羊了个羊(最新解锁皮肤，次数) = type=http-response,pattern= ^https.*easygame2021.com/(maps\/.*|sheep/v1/game\/persona|catMatch\/.*\/remote/resources/import/90/.+0e5480b8745c.),requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/xiaoheiwa1031/quanx/main/ylgy.js,script-update-interval=0

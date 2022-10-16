@@ -1,0 +1,17 @@
+DOMAIN-SUFFIX,applovin.com,REJECT
+DOMAIN-SUFFIX,applvn.com,REJECT
+DOMAIN-SUFFIX,amemv.com,📱抖音国际版
+DOMAIN-SUFFIX,ixigua.com,📱抖音国际版
+DOMAIN-SUFFIX,ixiguavideo.com,📱抖音国际版
+DOMAIN-SUFFIX,pstatp.com,📱抖音国际版
+DOMAIN-SUFFIX,snssdk.com,📱抖音国际版
+DOMAIN-SUFFIX,toutiao.com,📱抖音国际版
+DOMAIN-KEYWORD,ecombdapi,📱抖音国际版
+DOMAIN-KEYWORD,zjurl,📱抖音国际版
+DOMAIN-KEYWORD,douyinstatic,📱抖音国际版
+DOMAIN-KEYWORD,zijieapi,📱抖音国际版
+DOMAIN-KEYWORD,douyin,📱抖音国际版
+DOMAIN-KEYWORD,douyinvod,📱抖音国际版
+DOMAIN-KEYWORD,zjcdn,📱抖音国际版
+DOMAIN-KEYWORD,douyinpic,📱抖音国际版
+DOMAIN-KEYWORD,toutiao,📱抖音国际版

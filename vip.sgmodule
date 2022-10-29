@@ -43,7 +43,7 @@ Premium = type=http-response,pattern=https://buy.itunes.apple.com/verifyReceipt,
 Emby = type=http-response,pattern=^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey),requires-body=1,script-path=https://raw.githubusercontent.com/zlking02/Emby/main/Script/embycrack.js,script-update-interval=0,max-size=0
 
 # > 七猫小说解锁终身V + 去除所有广告 + 无限下载权限 + 无限听书权限 + 无限阅读权限
-七猫小说解锁终身V = type=http-response,pattern=^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/,requires-body=1,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/QiMaoXiaoShuo.conf,script-update-interval=0,max-size=0
+七猫小说解锁终身V = type=http-response,pattern= ^https?:\/\/(api-\w+|xiaoshuo)\.wtzw\.com\/api\/v\d\/,requires-body=1,script-path= https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/QiMaoXiaoShuo.js,script-update-interval=0,max-size=0
 
 # > 美图秀秀(2022.01.17) 解锁高级V（包括但不限于：付费海报模板、高级滤镜、高级素材等），无须登陆!
 美图秀秀(2022.01.17) = type=http-response,pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/MeiTuXiuXiu.js,script-update-interval=0,max-size=0

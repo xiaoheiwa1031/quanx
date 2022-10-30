@@ -2,7 +2,7 @@
 #!desc=VIP功能解锁
 
 [MITM]
-hostname = %APPEND% biz.caiyunapp.com, *.docer.wps.cn, vipapi.wps.cn, *account.wps.cn, *account.wps.com, *.kuwo.cn, *.lrts.me, *.wtzw.com, api.polaxiong.com, mb3admin.com, buy.itunes.apple.com, xluser-ssl.xunlei.com, vsco.co, api.revenuecat.com, pan.baidu.com, lcs-mobile-cops.adobe.io, createpdf.acrobat.com, mp.weixin.qq.com, ypmnkbb.saejeuj.com, fufxtyc.bytebwq.com, lcbnejx.dirptev.com, gcyivjc.qrneryt.com
+hostname = %APPEND% biz.caiyunapp.com, *.docer.wps.cn, vipapi.wps.cn, *account.wps.cn, *account.wps.com, *.kuwo.cn, *.lrts.me, *.wtzw.com, api.polaxiong.com, mb3admin.com, buy.itunes.apple.com, xluser-ssl.xunlei.com, vsco.co, api.revenuecat.com, pan.baidu.com, lcs-mobile-cops.adobe.io, createpdf.acrobat.com, mp.weixin.qq.com, ypmnkbb.saejeuj.com, fufxtyc.bytebwq.com, lcbnejx.dirptev.com, gcyivjc.qrneryt.com, apivip.zybang.com, mall.zuoyebang.com
 
 [Script]
 

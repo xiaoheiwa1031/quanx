@@ -1,0 +1,16 @@
+http:
+  mitm:
+    - "xianbeikeji.com"
+  script:
+    - match: ^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$
+      name: SmallDialyVipCrack
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+
+
+script-providers:
+      SmallDialyVipCrack:
+      url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/SmallDialyVipCrack.js
+      interval: 86400

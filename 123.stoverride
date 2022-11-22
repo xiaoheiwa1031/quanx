@@ -12,6 +12,6 @@ http:
       argument:
 
 script-providers:
-      SmallDialyVipCrack:
+      SmallDialyVipCrack.response:
       url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/SmallDialyVipCrack.js
       interval: 86400

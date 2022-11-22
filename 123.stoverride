@@ -1,5 +1,5 @@
-name:小习惯解锁永久会员
-desc:小习惯解锁永久会员
+name: 小习惯解锁永久会员
+desc: 小习惯解锁永久会员
 http:
   mitm:
     - "xianbeikeji.com"

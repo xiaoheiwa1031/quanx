@@ -39,9 +39,9 @@ if (l != -1) {
 //warp
 let w = tff.indexOf(warp)
 if (w != -1) {
-	warps = "                        ✅"
+	warps = "                         ✅"
 } else {
-	warps = "                        ❎"
+	warps = "                         ❎"
 }
 body = {
 title: "Chatgpt检测",

@@ -32,16 +32,16 @@ let loc = cf.loc
 //loc
 let l = tf.indexOf(loc)
 if (l != -1) {
-	gpt = "GPT状态 :                         ✅"
+	gpt = "GPT状态 :                           ✅"
 } else {
-	gpt = "GPT状态 :                         ❎"
+	gpt = "GPT状态 :                           ❎"
 }
 //warp
 let w = tff.indexOf(warp)
 if (w != -1) {
-	warps = "                       ✅"
+	warps = "                        ✅"
 } else {
-	warps = "                       ❎"
+	warps = "                        ❎"
 }
 body = {
 title: "Chatgpt检测",

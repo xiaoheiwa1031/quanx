@@ -39,13 +39,13 @@ if (l != -1) {
 //warp
 let w = tff.indexOf(warp)
 if (w != -1) {
-	warps = "                         ✅"
+	warps = "                       ✅"
 } else {
-	warps = "                         ❎"
+	warps = "                       ❎"
 }
 body = {
 title: "Chatgpt检测",
-content: `节点区域 :                           ${loc}\n${gpt}\nWarp状态 : ${warps}`,
+content: `节点区域 :                           ${loc}\n${gpt}\nWarp+状态 : ${warps}`,
   icon: iconUrl,
   'icon-color': iconColor,
 },$done(body);})

@@ -32,9 +32,9 @@ let loc = cf.loc
 //loc
 let l = tf.indexOf(loc)
 if (l != -1) {
-	gpt = "GPT状态  :                      已支持✅"
+	gpt = "GPT状态  :                     已支持✅"
 } else {
-	gpt = "GPT状态  :                      未支持❎"
+	gpt = "GPT状态  :                     未支持❎"
 }
 //warp
 let w = tff.indexOf(warp)
@@ -45,7 +45,7 @@ if (w != -1) {
 }
 body = {
 title: "Chatgpt检测",
-content: `${gpt}\nWarp状态 : ${warps}\n节点区域  :                        ${loc}`,
+content: `${gpt}\n节点区域  :                          ${loc}\nWarp状态 : ${warps}`,
   icon: iconUrl,
   'icon-color': iconColor,
 },$done(body);})
